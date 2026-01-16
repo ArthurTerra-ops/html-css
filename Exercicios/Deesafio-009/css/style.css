@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'S';
+    src: url(/fontes/idroid.otf) format('opentype') ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+margin: 0;
+background-color: rgb(144, 238, 202);
+gap: 0;
+}
+a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+box-shadow: inset 1px 1px 1px rgba(0, 68, 0, 0.443);
+}
+a:hover{
+background: rgba(0, 0, 0, 0.562);
+border-radius: 5px;
+transition: all 0.5s;
+transform: translate(5px);
+}
+header{
+background-image: linear-gradient(0deg, rgb(0, 114, 59), rgb(144, 238, 185));
+
+min-height: 150px;
+padding: 0;
+color: white ;
+}
+header > h1,header > p{text-align: center; padding-top: 30px ;}
+h1, h2{
+    margin: 0;
+    
+    font-family: 'S';
+}
+
+p{
+    margin: 0;
+    
+}
+article{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 5px 2px rgba(0, 73, 58, 0.418) ;
+margin: auto;
+padding: 20px;
+background-color: rgb(230, 253, 232);
+min-width: 320px;
+max-width: 600px;
+color: black;
+text-indent: 1em;
+font-weight: bold;
+}
+article > h1 {
+    font-family: 'S';
+    margin-bottom: 10px;
+    display: flex;
+    justify-self: end;
+    color: rgb(0, 90, 0);
+    width: 90%;
+    background-image: linear-gradient(90deg, rgba(0, 109, 56, 0.322), rgba(144, 238, 185, 0.116));
+}
+article > h2 {
+    display: flex;
+    justify-self: end;
+    color: rgb(0, 90, 0);
+    width: 90%;
+    background-image: linear-gradient(90deg, rgba(0, 109, 56, 0.322), rgba(144, 238, 185, 0.116));
+    margin: 10px;
+}
+
+article > picture{
+text-indent: 0;
+
+}
+article> picture > img{
+width: 100%;
+margin: auto;
+text-indent:0 ;
+}
+nav{
+    background-color: rgb(0, 114, 59);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.498);
+}
+div.video{
+    position: relative;
+    padding-bottom: 55%;
+}
+div.video > iframe{
+position: absolute;
+left: 5%;
+top: 5%;
+width: 90%;
+height: 90%;
+}
