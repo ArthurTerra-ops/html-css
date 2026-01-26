@@ -19,8 +19,19 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+span#burger{
+    background-color: rgb(49, 49, 49);
     display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+span#burger:hover{
+    background-color: white;
+    color: black;
+}
+menu#itens {
+    display: none;
 }
 menu > ul {
     list-style-type: none;
