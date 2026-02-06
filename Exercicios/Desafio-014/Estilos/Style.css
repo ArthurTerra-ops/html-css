@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+display: grid;
+
+height: 100vh;
+width: 100vw;
+grid-template: 4fr 1fr 5fr 2fr/ auto auto  ;
+border: 3px dotted black;
+justify-items: stretch;
+align-items: stretch;
+grid-auto-flow: column;
+gap: 5px;
+}
+
+.caixa1 {
+border: 3px solid black;
+background-color: #80f0cc;
+grid-area: 1 / 1 / 1 / 3;
+}
+.caixa2 {
+border: 3px solid black;
+background-color: #80f0cc;
+grid-area: 2 / 1 / 3 / 3;
+}
+.caixa3 {
+border: 3px solid black;
+background-color: #80f0cc;
+
+grid-row: 3 / 4;
+grid-column: 1 / 2;
+}
+.caixa4 {
+border: 3px solid black;
+background-color: #80f0cc;
+grid-area: 3 / 2 / 4 / 3;
+}
+.caixa5 {
+border: 3px solid black;
+background-color: #80f0cc;
+grid-area: 4 / 1 / 5 / 3;
+}
